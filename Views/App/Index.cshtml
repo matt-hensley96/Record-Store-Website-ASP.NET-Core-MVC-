@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-9">
+        <div class="company-info">
+            <img src="~/images/record.png" />
+            <ul class="goldies-lists">
+                <li>Vinyl records</li>
+                <li>Freshly fround coffee</li>
+                <li>Live music</li>
+            </ul>
+            <button id="findOutMoreButton" class="btn btn-success">- FIND OUT MORE -</button>
+        </div>
+
+        <div id="contactForm">
+            <h2>CONTACT US</h2>
+            <h3>Please use the form below for enquiries.</h3>
+            <label>Name:</label>
+            <br />
+            <input />
+            <br />
+            <label>Organisation:</label>
+            <br />
+            <input />
+            <br />
+            <label>Email:</label>
+            <br />
+            <input type="email" />
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea rows="4"> </textarea>
+            <br />
+            <input type="submit" value="- SEND -" />
+        </div>
+
+        <div>
+            <div id="loginToggle">Login</div>
+            <form class="popup-form">
+                <div>
+                    <label>Username</label>
+                    <input />
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="Password" />
+                </div>
+                <div>
+                    <input type="checkbox" />
+                    <label>Remember me?</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <p>Intelligent solutions in times of change.</p>
+    </div>
+    
+</div>
