@@ -1,10 +1,12 @@
-﻿using Goldies.Services;
+﻿using Goldies.Data;
+using Goldies.Services;
 using Goldies.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,10 +15,12 @@ namespace Goldies.Contollers
     public class AppController : Controller
     {
         private readonly IMailService _mailService;
+        private readonly IGoldiesRepository _repository;
 
-        public AppController(IMailService mailService)
+        public AppController(IMailService mailService, IGoldiesRepository repository)
         {
             _mailService = mailService;
+            _repository = repository;
         }
 
         public IActionResult Index()
@@ -52,6 +56,13 @@ namespace Goldies.Contollers
             ViewBag.Title = "About Us";
 
             return View();
+        }
+
+        public IActionResult Shop()
+        {
+            var results = _repository.GetAllProducts();
+
+            return View(results.ToList());
         }
     }
 }
