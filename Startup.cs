@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using AutoMapper;
 using Goldies.Data;
 using Goldies.Services;
 using Microsoft.AspNetCore.Builder;
@@ -12,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 
 namespace Goldies
 {
@@ -34,12 +37,20 @@ namespace Goldies
 
             services.AddTransient<IMailService, NullMailService>();
             //TO DO: Add support for a real mail service, not just the null one.
+
             services.AddTransient<GoldiesSeeder>();
+
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             services.AddScoped<IGoldiesRepository, GoldiesRepository>();
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddMvc().AddNewtonsoftJson(option =>
+            {
+                option.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
