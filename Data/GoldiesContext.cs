@@ -1,4 +1,5 @@
 ﻿using Goldies.Data.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Goldies.Data
 {
-    public class GoldiesContext : DbContext
+    public class GoldiesContext : IdentityDbContext<StoreUser>
     {
         public GoldiesContext(DbContextOptions<GoldiesContext> options) : base(options)
         {

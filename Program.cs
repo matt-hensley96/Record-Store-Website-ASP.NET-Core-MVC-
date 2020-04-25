@@ -30,7 +30,7 @@ namespace Goldies
             using (var scope = scopeFactory.CreateScope())
             {
                 var seeder = scope.ServiceProvider.GetService<GoldiesSeeder>();
-                seeder.Seed();
+                seeder.SeedASync().Wait();
             }
         }
 

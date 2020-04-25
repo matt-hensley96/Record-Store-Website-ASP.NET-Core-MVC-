@@ -1,6 +1,7 @@
 ﻿using Goldies.Data;
 using Goldies.Services;
 using Goldies.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -58,6 +59,7 @@ namespace Goldies.Contollers
             return View();
         }
 
+        [Authorize]
         public IActionResult Shop()
         {
             var results = _repository.GetAllProducts();
