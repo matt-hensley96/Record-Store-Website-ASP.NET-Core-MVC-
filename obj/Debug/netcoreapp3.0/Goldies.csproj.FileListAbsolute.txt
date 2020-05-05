@@ -164,5 +164,8 @@ C:\Code\GoldiesRecordStore\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Proto
 C:\Code\GoldiesRecordStore\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Code\GoldiesRecordStore\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 C:\Code\GoldiesRecordStore\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Code\GoldiesRecordStore\bin\Debug\netcoreapp3.0\tsconfig.json
 C:\Code\GoldiesRecordStore\obj\Debug\netcoreapp3.0\Goldies.csproj.CoreCompileInputs.cache
 C:\Code\GoldiesRecordStore\obj\Debug\netcoreapp3.0\Goldies.MvcApplicationPartsAssemblyInfo.cache
+C:\Code\GoldiesRecordStore\bin\Debug\netcoreapp3.0\angular.json
+C:\Code\GoldiesRecordStore\bin\Debug\netcoreapp3.0\tsconfig.app.json

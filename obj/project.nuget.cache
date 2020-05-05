@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nMkD+8nqBGNhw3hLCQmxT3yoADZKE4VdJmXqwXb8t44KQSBN96wg1unyHcAVpdvfL7dQkD+PS5i9GZqRP2916w==",
+  "dgSpecHash": "jzaZ2QZUehmfbuMv4v72cEjAVpLyFBdBl3katXhpFUopdFSdylVGOciok6CQYw102J2hdevg9BsSD1TwQsGCag==",
   "success": true,
   "projectFilePath": "C:\\Code\\GoldiesRecordStore\\Goldies.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\matth\\.nuget\\packages\\microsoft.typescript.msbuild\\3.8.3\\microsoft.typescript.msbuild.3.8.3.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.0.0\\microsoft.visualstudio.web.codegeneration.3.0.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.0.0\\microsoft.visualstudio.web.codegeneration.contracts.3.0.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.0.0\\microsoft.visualstudio.web.codegeneration.core.3.0.0.nupkg.sha512",
@@ -174,11 +175,7 @@
     "C:\\Users\\matth\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\matth\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\matth\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
-    "C:\\Users\\matth\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+    "C:\\Users\\matth\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
