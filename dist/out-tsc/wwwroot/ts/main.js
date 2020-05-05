@@ -1,3 +1,3 @@
-let shopper = new StoreCustomer("Matt", "Hensley");
+var shopper = new StoreCustomer("Matt", "Hensley");
 shopper.showName();
 //# sourceMappingURL=main.js.map
