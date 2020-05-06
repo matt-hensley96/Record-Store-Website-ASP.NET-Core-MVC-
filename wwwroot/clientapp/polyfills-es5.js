@@ -14636,9 +14636,9 @@ Zone.__load_patch('PromiseRejectionEvent', function (global, Zone) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! c:\Code\GoldiesRecordStore\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
-__webpack_require__(/*! c:\Code\GoldiesRecordStore\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js");
-module.exports = __webpack_require__(/*! c:\Code\GoldiesRecordStore\ClientApp\polyfills.ts */"./ClientApp/polyfills.ts");
+__webpack_require__(/*! C:\Code\GoldiesRecordStore\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
+__webpack_require__(/*! C:\Code\GoldiesRecordStore\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js");
+module.exports = __webpack_require__(/*! C:\Code\GoldiesRecordStore\ClientApp\polyfills.ts */"./ClientApp/polyfills.ts");
 
 
 /***/ })

@@ -338,7 +338,7 @@ module.exports = function (list, options) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! c:\Code\GoldiesRecordStore\ClientApp\styles.css */"./ClientApp/styles.css");
+module.exports = __webpack_require__(/*! C:\Code\GoldiesRecordStore\ClientApp\styles.css */"./ClientApp/styles.css");
 
 
 /***/ })
