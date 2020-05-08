@@ -14,5 +14,6 @@ namespace Goldies.Data
 
         bool SaveAll();
         void AddEntity(object model);
+        void AddOrder(Order newOrder);
     }
 }

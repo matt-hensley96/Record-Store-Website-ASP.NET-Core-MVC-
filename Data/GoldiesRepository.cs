@@ -1,4 +1,5 @@
 ﻿using Goldies.Data.Entities;
+using Microsoft.CodeAnalysis.Operations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
@@ -21,6 +22,17 @@ namespace Goldies.Data
         public void AddEntity(object model)
         {
             _ctx.Add(model);
+        }
+
+        public void AddOrder(Order newOrder)
+        {
+            //Convert new products to lookup of product
+            foreach (var item in newOrder.Items)
+            {
+                item.Product = _ctx.Products.Find(item.Product.Id);
+            }
+
+            AddEntity(newOrder);
         }
 
         public IEnumerable<Order> GetAllOrders(bool includeItems)
