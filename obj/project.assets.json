@@ -8886,11 +8886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\GoldiesRecordStore\\Goldies.csproj",
+      "projectUniqueName": "C:\\Code\\Record-Store-Website-ASP.NET-Core-MVC-\\Goldies.csproj",
       "projectName": "Goldies",
-      "projectPath": "C:\\Code\\GoldiesRecordStore\\Goldies.csproj",
+      "projectPath": "C:\\Code\\Record-Store-Website-ASP.NET-Core-MVC-\\Goldies.csproj",
       "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\GoldiesRecordStore\\obj\\",
+      "outputPath": "C:\\Code\\Record-Store-Website-ASP.NET-Core-MVC-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jzaZ2QZUehmfbuMv4v72cEjAVpLyFBdBl3katXhpFUopdFSdylVGOciok6CQYw102J2hdevg9BsSD1TwQsGCag==",
+  "dgSpecHash": "hYds/ZlAIitsoyhryyoBY7prsBL9fjUDROY1GRSpz38eotrrKv/U7GTOzfdGL6FyE5mwZglUxxpgC33ClUip6g==",
   "success": true,
-  "projectFilePath": "C:\\Code\\GoldiesRecordStore\\Goldies.csproj",
+  "projectFilePath": "C:\\Code\\Record-Store-Website-ASP.NET-Core-MVC-\\Goldies.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matth\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

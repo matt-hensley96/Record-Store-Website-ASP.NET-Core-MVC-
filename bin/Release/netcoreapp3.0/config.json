@@ -1,0 +1,16 @@
+{
+  "ConnectionStrings": {
+    "GoldiesConnectionString": "server=(localdb)\\MSSQLLocalDB;Database=GoldiesRecordsDB;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "Tokens": {
+    "Key": "aj3h45jkh345jhk345h3sd", // button mashed here, use a proper one on production DB
+    "Issuer": "localhost",
+    "Audience": "users"
+  }
+}
